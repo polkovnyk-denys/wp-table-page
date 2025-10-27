@@ -25,6 +25,27 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
+                    "key": "field_68ff7480c9f32",
+                    "label": "row_id",
+                    "name": "row_id",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_68ff684accc22"
+                },
+                {
                     "key": "field_68ff689fccc24",
                     "label": "Name",
                     "name": "row_name",
@@ -66,5 +87,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1761571990
+    "modified": 1761573433
 }

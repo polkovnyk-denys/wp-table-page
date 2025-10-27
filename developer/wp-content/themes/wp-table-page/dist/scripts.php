@@ -8,6 +8,10 @@ add_action('wp_head', function (): void {
 		'/dist/css/style.css',
 	];
 
+	if (is_front_page()) {
+		$styles[] = '/dist/css/front-page.css';
+	}
+
 	foreach ($styles as $style) {
 		$file_path = get_template_directory() . $style;
 
