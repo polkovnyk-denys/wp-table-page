@@ -21,13 +21,7 @@ add_action('wp_head', function (): void {
 });
 
 add_action('wp_enqueue_scripts', function (): void {
-	// if (is_singular('post')) {
-	// 	wp_enqueue_script(
-	// 		'post',
-	// 		DIST_PATH . '/js/post.js',
-	// 		[],
-	// 		'1.0.0',
-	// 		true
-	// 	);
-	// }
+
+	if (is_admin()) {
+	}
 });
