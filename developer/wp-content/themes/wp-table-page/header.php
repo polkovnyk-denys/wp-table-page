@@ -15,12 +15,15 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
+
     <!-- Open .main-wrapper -->
 
     <?php
-    // get_template_part(
-    //     sections_path('header-section')
-    // );
+    get_template_part(
+        sections_path('header-section'),
+        '',
+        [],
+    );
     ?>
 
     <main class="wrapper flex justify-center">
