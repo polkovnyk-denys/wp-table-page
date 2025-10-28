@@ -96,38 +96,6 @@ Behavior
 
 ---
 
-## Local development (Docker)
-
-Prerequisites
-
-- Docker and Docker Compose installed
-
-Start the stack
-
-```bash
-docker-compose up -d
-```
-
-Services
-
-- WordPress: http://localhost:8080
-- Adminer (DB UI): http://localhost:8082
-
-Database credentials (see `docker-compose.yml`)
-
-- Host: db
-- DB: wordpress
-- User: root
-- Password: root
-
-Stop the stack
-
-```bash
-docker-compose down
-```
-
----
-
 ## First-time setup in WP Admin
 
 1. Install and activate ACF Pro
