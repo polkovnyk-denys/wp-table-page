@@ -94,17 +94,6 @@ Behavior
 
 ![Admin — Country values](screenshots/edit_county_data.png)
 
-Optional (add your own images to `docs/` and keep the same names):
-
-- Admin — Front Page rows (ACF): `docs/admin-front-page.png`
-- Admin — Country table values (ACF): `docs/admin-country.png`
-
-If you add these files, they will be displayed here automatically:
-
-![Admin — Front Page rows](docs/admin-front-page.png)
-
-![Admin — Country table](docs/admin-country.png)
-
 ---
 
 ## Local development (Docker)
