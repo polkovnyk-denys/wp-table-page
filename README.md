@@ -84,12 +84,6 @@ Behavior
 
 ## Screenshots
 
-Front-end grid (desktop):
-
-![Front-end grid](developer/wp-content/themes/wp-table-page/screenshot.png)
-
-Additional screenshots (located in `screenshots/`):
-
 ![Table (full)](screenshots/table.png)
 
 ![Table with horizontal scroll](screenshots/table_scroling.png)
